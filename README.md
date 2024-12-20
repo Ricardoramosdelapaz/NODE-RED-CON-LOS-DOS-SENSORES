@@ -233,38 +233,47 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 - **ArduinoJson**
 - **PubSubClient**
 
-![](https://github.com/Ricardoramosdelapaz/NIVEL-DE-AGUA-CON-LCD/blob/main/LIBN.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/lib%20node.PNG?raw=true).
 
 3. Hacer la conexion de **DHT2** con el sensor **HC-SR04** y el **DHT22**, como se muestra en la siguiente imagen.
 
-![](https://github.com/Ricardoramosdelapaz/NIVEL-DE-AGUA-CON-LCD/blob/main/CONN.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/conex.PNG?raw=true).
 
 ### rwalizar la programacion en [Node-red](http://localhost:1880/)
 
 una vez instalado y ya instalado el Dashboard:
 
 - colocar un inicio con un mqtt y lo configuramos con el la direccion ip actual y el nombre. (misma que se coloco en la programacion) tal como se muestra en la imagen.
+- ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/inicio.PNG?raw=true).
 - Colocar un json y de igual manera tenemos que configurarlo como se muestra en la imagen.
-- ![](https://github.com/Ricardoramosdelapaz/NIVEL-DE-AGUA-CON-LCD/blob/main/CONN.PNG?raw=true).
+- ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/json.PNG?raw=true).
 - colocar un debug por default
 - colocar las funciones que nos daran los valores leidos de nuestro simulador y configurarlas como se muestra en la imagen.
-- ![](https://github.com/Ricardoramosdelapaz/NIVEL-DE-AGUA-CON-LCD/blob/main/CONN.PNG?raw=true).
-- colocar las graficas y los indicadores
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/temp.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/hum.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/distancia.PNG?raw=true).
+- colocar las graficas y los indicadores.
+![]https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/configuracion.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/DASHBOARD.PNG?raw=true).
+
+-como resultado nos queda de la siguiente manera:
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/DIAGRAMA.PNG?raw=true).
 
 ### Instrucciónes de operación
 
 1. Iniciar simulador.
 2. Visualizar los datos en el monitor serial.
-4. colocar la distancia dando click* al sensor ultrasonico **HC-SR04** (simulando el nivel de agua).
+4. colocar la distancia dando click* al sensor ultrasonico **HC-SR04**.
+5. colocar temperatura y humedad en el sensor **DHT22**.
+6. abrir el Node-RED y correrlo en la parte de DEPLOYD.
+7. abrir los indicadores en la parte de flecha de la parte de la derecha al entrar a la parte de dashboard
 
 ## Resultados
 
-Al iniciar la simulacion, verás los valores dentro del monitor serial y la pantalla LCD y los leds de los relays como se muestra en la siguente imagen.
+Al iniciar la simulacion, verás los valores dentro del monitor serial y los datos obtenidos se veran graficamenteen node-red, y se actualizaran en tiempo real.
 
-![](https://github.com/Ricardoramosdelapaz/NIVEL-DE-AGUA-CON-LCD/blob/main/RESN1.PNG?raw=true).
-![](https://github.com/Ricardoramosdelapaz/NIVEL-DE-AGUA-CON-LCD/blob/main/RESN2.PNG?raw=true).
-![](https://github.com/Ricardoramosdelapaz/NIVEL-DE-AGUA-CON-LCD/blob/main/RESN3.PNG?raw=true).
-![](https://github.com/Ricardoramosdelapaz/NIVEL-DE-AGUA-CON-LCD/blob/main/RES%20N4.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/SIMULACION.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/GRAFICAS.PNG?raw=true).
 
 
 
