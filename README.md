@@ -29,7 +29,7 @@ Para poder usar este repositorio necesitas:
 - Entrar a la plataforma [WOKWI](https://https://wokwi.com/).
 - entras a el sitio [Node-RED](http://localhost:1880).
 
-  para poder entrar a [Node-RED] es importante seguir los siguientes pasos:
+- Para poder entrar a [Node-RED] es importante seguir los siguientes pasos:
  [Instalar Node-Red](https://github.com/DiegoJm10/Node-red-instalacion/edit/main/README.md)
 
 
@@ -239,34 +239,34 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/conex.PNG?raw=true).
 
-### rwalizar la programacion en [Node-red](http://localhost:1880/)
+### realizar la programacion en [Node-red](http://localhost:1880/)
 
-una vez instalado y ya instalado el Dashboard:
+## Una vez instalado y ya instalado el Dashboard:
 
-- colocar un inicio con un mqtt y lo configuramos con el la direccion ip actual y el nombre. (misma que se coloco en la programacion) tal como se muestra en la imagen.
+- Colocar un inicio con un mqtt y lo configuramos con el la direccion ip actual y el nombre. (misma que se coloco en la programacion) tal como se muestra en la imagen.
 - ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/inicio.PNG?raw=true).
 - Colocar un json y de igual manera tenemos que configurarlo como se muestra en la imagen.
 - ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/json.PNG?raw=true).
-- colocar un debug por default
-- colocar las funciones que nos daran los valores leidos de nuestro simulador y configurarlas como se muestra en la imagen.
+- Colocar un debug por default
+- Colocar las funciones que nos daran los valores leidos de nuestro simulador y configurarlas como se muestra en la imagen.
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/temp.PNG?raw=true).
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/hum.PNG?raw=true).
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/distancia.PNG?raw=true).
-- colocar las graficas y los indicadores.
-![]https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/configuracion.PNG?raw=true).
+- Colocar las graficas y los indicadores.
+![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/configuracion.PNG?raw=true).
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/DASHBOARD.PNG?raw=true).
 
--como resultado nos queda de la siguiente manera:
+-Como resultado nos queda de la siguiente manera:
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/DIAGRAMA.PNG?raw=true).
 
 ### Instrucciónes de operación
 
 1. Iniciar simulador.
 2. Visualizar los datos en el monitor serial.
-4. colocar la distancia dando click* al sensor ultrasonico **HC-SR04**.
-5. colocar temperatura y humedad en el sensor **DHT22**.
-6. abrir el Node-RED y correrlo en la parte de DEPLOYD.
-7. abrir los indicadores en la parte de flecha de la parte de la derecha al entrar a la parte de dashboard
+4. Colocar la distancia dando click* al sensor ultrasonico **HC-SR04**.
+5. Colocar temperatura y humedad en el sensor **DHT22**.
+6. Abrir el Node-RED y correrlo en la parte de DEPLOYD.
+7. Abrir los indicadores en la parte de flecha de la parte de la derecha al entrar a la parte de dashboard
 
 ## Resultados
 
