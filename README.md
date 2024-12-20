@@ -244,15 +244,19 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 ## Una vez instalado y ya instalado el Dashboard:
 
 - Colocar un inicio con un mqtt y lo configuramos con el la direccion ip actual y el nombre. (misma que se coloco en la programacion) tal como se muestra en la imagen.
-- ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/inicio.PNG?raw=true).
-- Colocar un json y de igual manera tenemos que configurarlo como se muestra en la imagen.
-- ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/json.PNG?raw=true).
+  ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/inicio.PNG?raw=true).
+  
+  Colocar un json y de igual manera tenemos que configurarlo como se muestra en la imagen.
+  ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/json.PNG?raw=true).
+  
 - Colocar un debug por default
 - Colocar las funciones que nos daran los valores leidos de nuestro simulador y configurarlas como se muestra en la imagen.
+- 
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/temp.PNG?raw=true).
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/hum.PNG?raw=true).
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/distancia.PNG?raw=true).
-- Colocar las graficas y los indicadores.
+
+- Colocar las graficas y los indicadores.  
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/configuracion.PNG?raw=true).
 ![](https://github.com/Ricardoramosdelapaz/NODE-RED-CON-LOS-DOS-SENSORES/blob/main/DASHBOARD.PNG?raw=true).
 
